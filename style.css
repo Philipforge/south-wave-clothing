@@ -689,6 +689,16 @@ section{
         gap: 0.4rem;
     }
 
-    
+  
   
 }
+
+  @media (min-width: 601px) {
+    .hero-content h3 {
+        font-size: clamp(3.4rem, 10vw, 8rem);
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+}
+
+  
