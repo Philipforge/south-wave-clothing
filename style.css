@@ -693,12 +693,13 @@ section{
   
 }
 
-  @media (min-width: 601px) {
+  @media (man-width: 1600px) {
     .hero-content h3 {
-        font-size: clamp(3.4rem, 10vw, 8rem);
+        font-size: 1rem;
         letter-spacing: 0;
         white-space: nowrap;
     }
 }
+  
 
   
